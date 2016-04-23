@@ -30,6 +30,13 @@
 
 <div id="impress">
     
+    
+    <div class="step slide" data-x="-2000" data-y="-1500">
+        <q id="hintMsg" style="font-size: 30px;text-align:center;">
+            Use a spacebar or arrow keys to navigate
+        </q>
+    </div>
+    
     <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
         <q style="font-size: 30px;text-align:center;">
             巨人がすべてを支配する世界。<br>
@@ -155,12 +162,12 @@
     </div>
 </div>
 
-<div class="hint">
+<!--<div class="hint">
     <p>Use a spacebar or arrow keys to navigate</p>
-</div>
+</div>-->
 <script>
 if ("ontouchstart" in document.documentElement) { 
-    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    document.querySelector("#hintMsg").innerHTML = "<p>Tap on the left or right to navigate</p>";
 }
 </script>
 <script src="js/impress.js"></script>
