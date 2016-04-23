@@ -1,0 +1,25 @@
+.title-tag {
+    position:fixed;
+    top:260px;
+    left:600px;
+    padding: 3px 15px;
+    color:#ff1919;
+    font: bold 40px  'Open Sans', Arial, sans-serif;
+    border:3px solid #ff1919;
+}
+
+.sentence {
+    color: #FFFFFF;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.charactor-name {
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    color: #777777;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 24px;
+}
